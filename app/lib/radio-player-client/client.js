@@ -45,13 +45,15 @@ module.exports = class Client extends Super {
 
             // starting delayed the playback
             setTimeout(function () {
-                RPC.player.start(this.channel.mount);
-            }.bind(this), 4000);
+                //RPC.player.start(this.channel.mount);
+                RPC.play();
+            }, 4000);
 
             // testing delayed the skip track function
             setTimeout(function () {
-                RPC.client.skipTrack();
-            }.bind(this), 30000);
+                //RPC.client.skipTrack();
+                RPC.skip();
+            }, 30000);
 
         }.bind(this));
 

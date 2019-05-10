@@ -16,7 +16,7 @@ exit
 - clone and install
 ```
 cd /data
-git clone ...
+git clone https://github.com/seekwhencer/radio-player-client.git
 cd radio-player-client/app
 npm install
 ```

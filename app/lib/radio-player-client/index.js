@@ -18,4 +18,13 @@ module.exports = class RadioPlayerClient extends Super {
         this.player = new Player();
 
     }
+
+    play(){
+        this.player.start(this.client.mount);
+    }
+
+    skip(){
+        this.client.skipTrack();
+    }
+
 };
