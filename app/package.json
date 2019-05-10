@@ -1,0 +1,20 @@
+{
+  "name": "radio-player-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "export NODE_DEBUG=true && export NODE_ENV=default && node index.js",
+    "custom": "export NODE_DEBUG=true && export NODE_ENV=custom && node index.js",
+    "prod": "export NODE_DEBUG=true && export NODE_ENV=production && node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "express": "^4.16.4",
+    "fs-extra": "^7.0.1",
+    "ramda": "^0.26.1"
+  }
+}
