@@ -96,7 +96,7 @@ wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
 
 - setup wifi
 ```
-sudo nano /etc/network/interfaces
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
 use this:
 ```
